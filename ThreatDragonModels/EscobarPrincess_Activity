@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "baf15c2c-e7f1-4270-bfb1-1ab1e04a54b7",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Authorization \nProvider",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -254,8 +255,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -281,6 +281,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -364,7 +365,6 @@
               ]
             },
             "id": "3072e6e3-5562-48f3-b6ba-25ddee4436e6",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -405,6 +405,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -488,7 +489,6 @@
               ]
             },
             "id": "f8ad09d5-4298-4d6a-946f-42ec3992ed25",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -523,6 +523,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -606,7 +607,6 @@
               ]
             },
             "id": "20984ede-6ee6-4c17-9b93-86fb6365ec95",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
